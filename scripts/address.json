@@ -1,0 +1,11 @@
+{
+    "localhost": {
+        "songjamSBT":"0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    "basetestnet":{
+        "songjamSBT":"0xDF10732dA73Bb6064D7898A278DA451D35B4cb0f"
+    },
+    "base":{
+        "songjamSBT":""
+    }
+}
