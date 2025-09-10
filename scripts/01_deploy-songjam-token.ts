@@ -11,7 +11,7 @@ async function main() {
   console.log("Deploying SongjamToken...");
 
   const SongjamToken: SongjamToken__factory = await ethers.getContractFactory("SongjamToken");
-  const songjamToken: SongjamToken = await SongjamToken.deploy(owner.address);
+  const songjamToken: SongjamToken = await SongjamToken.deploy(owner.address, "SongjamToken", "SONG");
   
   await songjamToken.deployed();
   console.log("SongjamToken deployed to: ", songjamToken.address);
